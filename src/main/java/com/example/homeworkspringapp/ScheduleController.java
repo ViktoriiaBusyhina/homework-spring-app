@@ -54,6 +54,14 @@ public class ScheduleController {
         int idNumber = Integer.parseInt(id);
         return schedule.get(idNumber);
     }
-
+    
+    @DeleteMappina(value = ©~"/schedule/all")
+    public void deleteAllLesson( ){
+        schedule.clear ();
+      
+    @GetMapping (value = ©~"/schedule/count")
+    public int getLessonCount ) {
+        return schedule. size();
+    }
 
 }
